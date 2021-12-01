@@ -10,7 +10,7 @@ class RandomData extends Component {
   }
 
   componentDidMount() {
-    const url = `https://fakerapi.it/api/v1/persons?_quantity=5`;
+    const url = `https://fakerapi.it/api/v1/persons?_quantity=10`;
 
     fetch(url)
       .then((response) => {
