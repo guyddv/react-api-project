@@ -6,8 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Random Data Generator</h1>
-        <hr />
+        <h1 className="App-title">Random Data Generator</h1>
         <RandomData />
       </div>
     );
