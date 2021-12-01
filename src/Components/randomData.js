@@ -26,14 +26,13 @@ class RandomData extends Component {
 
   renderData() {
     return this.state.randdata.map((item) => (
-      <NewSingleData key={item.id} item={item} />
+      <NewSingleData key={item.email} item={item} />
     ));
   }
 
   render() {
     return (
       <div>
-        <h2>Random Name</h2>
         <ol>{this.renderData()}</ol>
       </div>
     );
