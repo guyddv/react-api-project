@@ -33,6 +33,12 @@ class RandomData extends Component {
   render() {
     return (
       <div>
+        <button
+          className="button"
+          onClick={() => {
+            window.location.reload();
+          }}
+        ></button>
         <ol>{this.renderData()}</ol>
       </div>
     );
