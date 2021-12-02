@@ -2,7 +2,7 @@ import React from "react";
 
 const NewSingleData = ({ item }) => (
   <li>
-    <p>
+    <div class="card">
       <ul>
         <li>
           <b>First Name: </b>
@@ -28,9 +28,10 @@ const NewSingleData = ({ item }) => (
           {item.gender}{" "}
         </li>
       </ul>
-
       <br></br>
-    </p>
+      <br></br>
+      <br></br>
+    </div>
   </li>
 );
 
